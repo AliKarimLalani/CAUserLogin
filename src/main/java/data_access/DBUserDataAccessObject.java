@@ -66,11 +66,21 @@ public class DBUserDataAccessObject implements SignupUserDataAccessInterface,
     }
 
     /**
+     * Blah.
      * @param name Blah.
      */
     @Override
     public void setCurrentUser(String name) {
 
+    }
+
+    /**
+     * Blah.
+     * @return Blah.
+     */
+    @Override
+    public String getCurrentUser() {
+        return "";
     }
 
     @Override
